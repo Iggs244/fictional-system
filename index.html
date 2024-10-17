@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Finder - Discover Workshops Near You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="#" class="logo"><img src="tenonlogo.png" alt="Workshop Finder Logo"></a>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Workshops</a></li>
+                    <li class="dropdown">
+                        <a href="#">Categories</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Arts & Crafts</a></li>
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Cooking</a></li>
+                            <li><a href="#">Woodworking</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#" class="btn-login">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Discover Amazing Workshops Near You</h1>
+                <p>Learn new skills, connect with experts, and grow your passion.</p>
+                <form class="search-form">
+                    <input type="text" placeholder="Search workshops or locations">
+                    <input type="date" placeholder="Check-in">
+                    <input type="date" placeholder="Check-out">
+                    <select>
+                        <option value="">Number of Attendees</option>
+                        <option value="1">1 Attendee</option>
+                        <option value="2">2 Attendees</option>
+                        <option value="3">3 Attendees</option>
+                        <option value="4">4+ Attendees</option>
+                    </select>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="workshop-list">
+            <h2>Popular Workshops</h2>
+            <div class="workshop-grid">
+                <div class="workshop-card">
+                    <img src="photographystudio.jpg" alt="Photography Workshop">
+                    <h3>Photography Workshop - London</h3>
+                    <p>Learn to capture stunning images with professional guidance.</p>
+                    <p>£299 total</p>
+                    <button>View Details</button>
+                </div>
+                <div class="workshop-card">
+                    <img src="woodworkshop.jpg" alt="Woodworking Workshop">
+                    <h3>Woodworking Basics - Birmingham</h3>
+                    <p>Master the basics of woodworking in a weekend.</p>
+                    <p>£150 total</p>
+                    <button>View Details</button>
+                </div>
+                <div class="workshop-card">
+                    <img src="workshop3.jpg" alt="Cooking Class">
+                    <h3>Italian Cooking Class - Manchester</h3>
+                    <p>Cook authentic Italian dishes with a local chef.</p>
+                    <p>£100 total</p>
+                    <button>View Details</button>
+                </div>
+                <div class="workshop-card">
+                    <img src="workshop4.jpg" alt="Art Class">
+                    <h3>Painting & Art Workshop - Bristol</h3>
+                    <p>Explore your creativity with a hands-on painting session.</p>
+                    <p>£200 total</p>
+                    <button>View Details</button>
+                </div>
+                <!-- Additional workshop cards can be added here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#">Workshops</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Popular Locations</a></li>
+                    <li><a href="#">Become a Host</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Cancellation Options</a></li>
+                    <li><a href="#">Safety Information</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Workshop Finder. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
